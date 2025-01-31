@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet shop</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <div class="bg-[#FFF9F4]">
+            <nav class="font-[sora] flex justify-between md:max-w-7xl mx-auto items-center h-20">
+                <div class="flex items-center gap-2">
+                    <img class="w-10" src="c1-assets/logo-header.png" alt="">
+                    <h3 class="text-2xl hidden md:block">Browse<span style="color:#FFDC26;">4</span>Pets</h3>
+                </div>
+                <ul class="md:flex gap-5 text-lg hidden ">
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+                <div class="flex gap-3 text-lg items-center">
+                    <img class="md:hidden" src="c1-assets/icons8-menu-30.png" alt="">
+                    <img class="w-8 h-8 hidden md:block" src="c1-assets/icons8-notification-50.png" alt="">
+                    <img class="hidden md:block w-9 h-9" src="c1-assets/icons8-search-50.png" alt="">
+                    <button class="hidden md:block border-3 border-[#FFDC26] rounded-lg px-6 py-2">Login</button>
+                    <Button class="bg-[#FFDC26] px-7 rounded-lg py-2 border-3 border-[#FFDC26] hidden md:block">Register</Button>
+                </div>
+            </nav>
+        </div>
+        <!-- banner -->
+        <div class="bg-[url('c1-assets/cat-big.png')] md:bg-cover md:h-[730px] bg-no-repeat md:max-w-7xl mx-auto bg-contain h-64 relative">
+            <div class="absolute w-1/2 top-20">
+                <h1 class="text-6xl">Pamper Your Pet, Because They Deserve the Best</h1>
+                <p class="font-[sora] text-lg mt-5 opacity-70">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="bg-[#FFDC26] text-lg mt-5 py-2 px-7 rounded-lg">Find a pet</button>
+            </div>
+        </div>
+    </header>      
+</body>
+</html>
